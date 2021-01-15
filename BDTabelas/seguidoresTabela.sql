@@ -1,0 +1,11 @@
+﻿CREATE TABLE twitter.seguidores (
+  id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  idusuario INT(11) UNSIGNED DEFAULT NULL,
+  idusuarioseguindo INT(11) DEFAULT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB,
+AUTO_INCREMENT = 2,
+AVG_ROW_LENGTH = 16384,
+CHARACTER SET utf8mb4,
+COLLATE utf8mb4_general_ci;
